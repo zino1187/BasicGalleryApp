@@ -13,6 +13,12 @@
 		AC32C14723E83E4B00B6C3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32C14523E83E4B00B6C3C4 /* Main.storyboard */; };
 		AC32C14923E83E4C00B6C3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC32C14823E83E4C00B6C3C4 /* Assets.xcassets */; };
 		AC32C14C23E83E4C00B6C3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC32C14A23E83E4C00B6C3C4 /* LaunchScreen.storyboard */; };
+		AC32C15A23E83F0200B6C3C4 /* h1.png in Resources */ = {isa = PBXBuildFile; fileRef = AC32C15423E83F0200B6C3C4 /* h1.png */; };
+		AC32C15B23E83F0200B6C3C4 /* h4.png in Resources */ = {isa = PBXBuildFile; fileRef = AC32C15523E83F0200B6C3C4 /* h4.png */; };
+		AC32C15C23E83F0200B6C3C4 /* h2.png in Resources */ = {isa = PBXBuildFile; fileRef = AC32C15623E83F0200B6C3C4 /* h2.png */; };
+		AC32C15D23E83F0200B6C3C4 /* h5.png in Resources */ = {isa = PBXBuildFile; fileRef = AC32C15723E83F0200B6C3C4 /* h5.png */; };
+		AC32C15E23E83F0200B6C3C4 /* h3.png in Resources */ = {isa = PBXBuildFile; fileRef = AC32C15823E83F0200B6C3C4 /* h3.png */; };
+		AC32C15F23E83F0200B6C3C4 /* h6.png in Resources */ = {isa = PBXBuildFile; fileRef = AC32C15923E83F0200B6C3C4 /* h6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		AC32C14823E83E4C00B6C3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC32C14B23E83E4C00B6C3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC32C14D23E83E4C00B6C3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC32C15423E83F0200B6C3C4 /* h1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h1.png; sourceTree = "<group>"; };
+		AC32C15523E83F0200B6C3C4 /* h4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h4.png; sourceTree = "<group>"; };
+		AC32C15623E83F0200B6C3C4 /* h2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2.png; sourceTree = "<group>"; };
+		AC32C15723E83F0200B6C3C4 /* h5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h5.png; sourceTree = "<group>"; };
+		AC32C15823E83F0200B6C3C4 /* h3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h3.png; sourceTree = "<group>"; };
+		AC32C15923E83F0200B6C3C4 /* h6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h6.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +52,7 @@
 		AC32C13323E83E4B00B6C3C4 = {
 			isa = PBXGroup;
 			children = (
+				AC32C15323E83EBB00B6C3C4 /* images */,
 				AC32C13E23E83E4B00B6C3C4 /* BasicGalleryApp */,
 				AC32C13D23E83E4B00B6C3C4 /* Products */,
 			);
@@ -65,6 +78,19 @@
 				AC32C14D23E83E4C00B6C3C4 /* Info.plist */,
 			);
 			path = BasicGalleryApp;
+			sourceTree = "<group>";
+		};
+		AC32C15323E83EBB00B6C3C4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AC32C15423E83F0200B6C3C4 /* h1.png */,
+				AC32C15623E83F0200B6C3C4 /* h2.png */,
+				AC32C15823E83F0200B6C3C4 /* h3.png */,
+				AC32C15523E83F0200B6C3C4 /* h4.png */,
+				AC32C15723E83F0200B6C3C4 /* h5.png */,
+				AC32C15923E83F0200B6C3C4 /* h6.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +151,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC32C15B23E83F0200B6C3C4 /* h4.png in Resources */,
+				AC32C15D23E83F0200B6C3C4 /* h5.png in Resources */,
+				AC32C15C23E83F0200B6C3C4 /* h2.png in Resources */,
+				AC32C15F23E83F0200B6C3C4 /* h6.png in Resources */,
 				AC32C14C23E83E4C00B6C3C4 /* LaunchScreen.storyboard in Resources */,
+				AC32C15E23E83F0200B6C3C4 /* h3.png in Resources */,
 				AC32C14923E83E4C00B6C3C4 /* Assets.xcassets in Resources */,
+				AC32C15A23E83F0200B6C3C4 /* h1.png in Resources */,
 				AC32C14723E83E4B00B6C3C4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
